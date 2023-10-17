@@ -1,0 +1,210 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+
+
+
+:root {
+    --color-dark-primary: #451952;
+    --color-light-primary: #f8fff9;
+    --color-dark-secondary: #451952;
+    --color-light-primary: #AE445A;
+    --color-light-secondary: #F39F5A;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+.bg-dark-primary {
+    background-color: var(--color-dark-primary);
+}
+.bg-img-primary {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/img/tim-toomey-STqHLqMne3k-unsplash.jpg');
+}
+
+.bg-light {
+    background-color: white;
+}
+.flex {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.rounded-lg {
+    border-radius: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-space-between {
+    align-content: space-between;
+}
+.text-bold {
+    font-weight: 700;
+}
+
+.m-5 {
+    margin-top: 10px;
+}
+
+.blur {
+    filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.not-full-opacity {
+    background: rgba(255, 255, 255, 0.762);
+}
+
+.near-full-opacity {
+    background: rgba(255, 255, 255, 0.852);
+}
+.full-opacity{
+    background: rgba(255, 255, 255, 1);
+}
+
+.bg-yellow {
+    background-color: rgba(119, 77, 0, 0.555);
+}
+
+.relative {
+    position: relative;
+}
+
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.border-m {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-small {
+    font-size: 10px;
+}
+
+.text-medium {
+    font-size: 14px;
+}
+
+.rounded-full {
+    border-radius: 100%;
+}
+
+
+
+    /* Ids */
+
+#hero {
+   
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    padding-left: 10vh;
+}
+
+
+#daftar-menu {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    padding: 10px;
+}
+
+
+#menu-item-title {
+    position: absolute;
+    bottom: 24px;
+    margin-left: 3px;
+    border-radius: 2rem;
+    padding: 7px;
+    font-size: 12px;
+    
+}
+/* 2 */
+
+
+h1,h2, h3 {
+    margin: 0;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    color: white;
+    border-radius: 1rem;
+    padding: 7px;
+    border-width: 2px;
+    border-color: white;
+}
+
+nav {
+    background-color: white;
+    overflow: clip;
+    padding: 1rem;
+    opacity: 0.75;
+    display: flex;
+    justify-content: space-between;
+
+    position: sticky;
+
+    /* font-size: 1rem; */
+}
+
+img {
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+/* media queries section */
+@media screen and (max-width: 600px) {
+    nav a:not(:first-child, :last-child) {
+        display: none;
+    }
+}
