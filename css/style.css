@@ -25,7 +25,7 @@ nav>ul>li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url('img/tim-toomey-unsplash.jpg');
+    background-image: url('../img/tim-toomey-unsplash.jpg');
 }
 
 .bg-light {
